@@ -1,5 +1,5 @@
 name: Game Compatibility
-description: Report a game's compatibility status on FPPS4
+description: Report a game's compatibility status on RPCSX
 body:
   - type: input
     id: game-name
@@ -20,6 +20,13 @@ body:
     attributes:
       label: Game version
       placeholder: ## *(e.g. 1.00)*
+    validations:
+      required: true
+  - type: input
+    id: emulator-version
+    attributes:
+      label: Used emulator's version
+      placeholder: ## Used emulator's version
     validations:
       required: true
   - type: dropdown
@@ -48,16 +55,11 @@ body:
       placeholder: ## Description
     validations:
       required: true
-  - type: dropdown
-    id: used-hacks
-    attributes:
-      label: Used hacks
-      multiple: true
   - type: textarea
     id: screenshot
     attributes:
       label: Screenshots
-      description: Add screenshots here.
+      description: Add screenshots here (preferably on windowed mode) if the game is rendering.
       placeholder: Drag and drop the images/screenshots onto the text area.
     validations:
       required: false
