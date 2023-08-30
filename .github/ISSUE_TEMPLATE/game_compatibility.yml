@@ -4,7 +4,7 @@ body:
   - type: input
     id: game-name
     attributes:
-      label: Game Name
+      label: Name
       placeholder: # Game Name
     validations:
       required: true
@@ -16,17 +16,17 @@ body:
     validations:
       required: true
   - type: input  
-    id: game-version
+    id: version
     attributes:
-      label: Game version
+      label: version
       placeholder: ## *(e.g. 1.00)*
     validations:
       required: true
   - type: input
     id: emulator-version
     attributes:
-      label: Used emulator's version
-      placeholder: ## Used emulator's version
+      label: RPCSX Build ID
+      placeholder: ## https://github.com/RPCSX/rpcsx/commits/master newest commit number
     validations:
       required: true
   - type: dropdown
