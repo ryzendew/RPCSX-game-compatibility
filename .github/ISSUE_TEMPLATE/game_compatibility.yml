@@ -9,7 +9,7 @@ body:
     validations:
       required: true
   - type: input
-    id: game-code
+    id: game-Title-ID
     attributes:
       label: Game code
       placeholder: ## Code *(e.g. 1.00)*
