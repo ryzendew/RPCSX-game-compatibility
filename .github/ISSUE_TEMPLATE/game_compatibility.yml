@@ -58,7 +58,7 @@ body:
   - type: textarea
     id: screenshot
     attributes:
-      label: Screenshots
+      label: Screenshots/Videos
       description: Add screenshots or Videos here (preferably on windowed mode) if the game is rendering.
       placeholder: Drag and drop the images/screenshots or paste videos onto the text area.
     validations:
