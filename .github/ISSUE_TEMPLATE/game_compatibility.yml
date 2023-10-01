@@ -56,11 +56,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: screenshot or video
+    id: screenshot
     attributes:
       label: Screenshots
-      description: Add screenshots here (preferably on windowed mode) if the game is rendering.
-      placeholder: Drag and drop the images/screenshots onto the text area.
+      description: Add screenshots or Videos here (preferably on windowed mode) if the game is rendering.
+      placeholder: Drag and drop the images/screenshots or paste videos onto the text area.
     validations:
       required: false
   - type: textarea
