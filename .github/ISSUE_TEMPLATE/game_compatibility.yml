@@ -56,7 +56,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: screenshot
+    id: screenshot/video
     attributes:
       label: Screenshots
       description: Add screenshots here (preferably on windowed mode) if the game is rendering.
